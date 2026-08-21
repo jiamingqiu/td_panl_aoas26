@@ -1,0 +1,8 @@
+pyseqdx/data/*.zip
+pyseqdx.egg-info/
+**/__pycache__/
+*.pkl
+*.torchmdl
+*.json
+*.jsonl
+*.csv

@@ -1,0 +1,27 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Local CGM source and prepared data
+/misc/SevereHypoDataset.zip
+/misc/CGM.csv
+/misc/cgm_interp_label.csv
+/pyseqdx_pkg/pyseqdx/data/CGM.csv
+/pyseqdx_pkg/pyseqdx/data/cgm_interp_label.csv
+
+# Generated experiment and figure outputs; retain directory placeholders
+/example/cgm_out/*
+!/example/cgm_out/.gitkeep
+/example/pareto_out/*
+!/example/pareto_out/.gitkeep
+/misc/figures/*
+!/misc/figures/.gitkeep
+/misc/explicit_mu/pareto_true/*
+!/misc/explicit_mu/pareto_true/.gitkeep
+
+# Common R session output
+.Rhistory
+.RData
+Rplots.pdf
